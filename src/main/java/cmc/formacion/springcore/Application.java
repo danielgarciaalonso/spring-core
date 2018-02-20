@@ -22,8 +22,13 @@ public class Application {
 
 		PersonaServicio personaServicio = context.getBean(PersonaServicio.class);
 		
-		System.out.println(personaServicio.getpersonaAutowiredByConstructor().getNombre());
-		System.out.println(personaServicio.getPersonaAutowiredByField().getNombre());
-		System.out.println(personaServicio.getPersonaAutowiredBySetter().getNombre());
+		System.out.println("Por constructor: "+
+		personaServicio.getpersonaAutowiredByConstructor().getNombre());
+		
+		System.out.println("Por campo: "+
+		personaServicio.getPersonaAutowiredByField().getNombre());
+		
+		System.out.println("Por setter: "+
+		personaServicio.getPersonaAutowiredBySetter().getNombre());
 	}
 }
