@@ -26,5 +26,4 @@ public class Application {
 		System.out.println(personaServicio.getPersonaAutowiredByField().getNombre());
 		System.out.println(personaServicio.getPersonaAutowiredBySetter().getNombre());
 	}
-
 }

@@ -16,6 +16,7 @@ public class PersonaServImpl implements PersonaServicio {
 	
 	Persona autowiredByConstructor;
 
+	// Quedarse con esta
 	@Autowired
 	public PersonaServImpl(@Qualifier("pedro") Persona autowiredByConstructor) {
 		this.autowiredByConstructor = autowiredByConstructor;
