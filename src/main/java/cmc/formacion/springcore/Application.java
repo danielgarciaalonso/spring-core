@@ -30,5 +30,7 @@ public class Application {
 		
 		System.out.println("Por setter: "+
 		personaServicio.getPersonaAutowiredBySetter().getNombre());
+		
+		//jhipster angular front spring back
 	}
 }
